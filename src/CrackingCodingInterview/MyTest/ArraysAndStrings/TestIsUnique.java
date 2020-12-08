@@ -8,7 +8,7 @@ import CrackingCodingInterview.MyCoding.ArraysAndStrings.*;
 import CrackingCodingInterview.MyTest.Generate.randomStrings;
 /**
  *
- * @author jessica
+ * @author MarcoHdez
  */
 public class TestIsUnique {
     public static void main(String args[]){

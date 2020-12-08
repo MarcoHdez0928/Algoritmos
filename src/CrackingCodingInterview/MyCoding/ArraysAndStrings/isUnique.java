@@ -7,7 +7,7 @@ package CrackingCodingInterview.MyCoding.ArraysAndStrings;
 
 /**
  *
- * @author jessica
+ * @author MarcoHdez
  */
 public class isUnique {
     public isUnique(){
