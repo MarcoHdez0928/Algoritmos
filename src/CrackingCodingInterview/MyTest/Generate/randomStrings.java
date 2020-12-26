@@ -15,7 +15,7 @@ public class randomStrings {
     public randomStrings(){
         
     }
-    public String generateRamdomString(String characters,int longitud){
+    public String generateRandomString(String characters,int longitud){
         char[] chars = characters.toCharArray(); 
         StringBuilder sb = new StringBuilder(longitud); 
         Random random = new Random(); 

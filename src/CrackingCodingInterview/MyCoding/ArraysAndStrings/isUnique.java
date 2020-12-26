@@ -8,6 +8,7 @@ package CrackingCodingInterview.MyCoding.ArraysAndStrings;
 /**
  *
  * @author MarcoHdez
+ * Validate that each character in the string is unique
  */
 public class isUnique {
     public isUnique(){
