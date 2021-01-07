@@ -27,12 +27,12 @@ public class zeroMatrix {
         }
         //replace selected elements in positions in x with zero
         for(int i=0;i<x.size();i++){
-            for(int j=0;j<matrix.length;j++){
+            for(int j=0;j<matrix[0].length;j++){
                 matrix[x.get(i)][j]=0;
             }
         }
         for(int i=0;i<y.size();i++){
-            for(int j=0;j< matrix[0].length;j++){
+            for(int j=0;j< matrix.length;j++){
                 matrix[j][y.get(i)]=0;
             }
         }
