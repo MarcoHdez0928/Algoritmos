@@ -22,11 +22,11 @@ public class TestZeroMatrix {
                         {21,22,23,24,25}};
         zeroMatrix test =new zeroMatrix();
         utilsForMatrix utils=new utilsForMatrix();
-        utils.printArray(matrix, 4);
+        utils.printMatrix(matrix, 4);
         long tini=System.nanoTime();
         matrix=test.setZeroes(matrix);
         long tfin=System.nanoTime();
-        utils.printArray(matrix, 4);
+        utils.printMatrix(matrix, 4);
         System.out.println("Time in nanoseconds: "+(tfin-tini));
         
         int[][] matrixB={{1,2,3,4,5},
@@ -37,11 +37,11 @@ public class TestZeroMatrix {
                         {21,22,23,0,25},
                         {21,22,23,24,25}};
         zeroMatrixBook testB =new zeroMatrixBook();        
-        utils.printArray(matrixB, 4);
+        utils.printMatrix(matrixB, 4);
         long tiniB=System.nanoTime();
         matrixB=testB.setZeros(matrixB);
         long tfinB=System.nanoTime();
-        utils.printArray(matrixB, 4);
+        utils.printMatrix(matrixB, 4);
         System.out.println("Time in nanoseconds: "+(tfinB-tiniB));
     }
 }

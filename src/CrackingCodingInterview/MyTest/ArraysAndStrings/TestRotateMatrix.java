@@ -21,14 +21,14 @@ public class TestRotateMatrix {
         rotateMatrix test=new rotateMatrix();
         utilsForMatrix utils=new utilsForMatrix();
         System.out.println("Original Matrix");
-        utils.printArray(matrix,4);
+        utils.printMatrix(matrix,4);
         long tini=System.nanoTime();
         matrix=test.rotateMatrix(matrix);
         long tfin=System.nanoTime();
         
         System.out.println("\nMatrix Rotated To The Rigth");
         
-        utils.printArray(matrix,4);
+        utils.printMatrix(matrix,4);
         System.out.println("\nTime in nanoseconds: "+(tfin-tini));
         
         int[][] matrix2={{1,2,3,4,5},
@@ -38,14 +38,14 @@ public class TestRotateMatrix {
                         {21,22,23,24,25}};
         rotateMatrixBook testB=new rotateMatrixBook();
         System.out.println("Original Matrix");
-        utils.printArray(matrix2,4);
+        utils.printMatrix(matrix2,4);
         long tiniB=System.nanoTime();
         matrix2=testB.rotate(matrix2);
         long tfinB=System.nanoTime();
         
         System.out.println("\nMatrix Rotated To The Rigth");
         
-        utils.printArray(matrix2,4);
+        utils.printMatrix(matrix2,4);
         System.out.println("\nTime in nanoseconds: "+(tfinB-tiniB));
         
     }
